@@ -1,0 +1,9 @@
+#page-top body{
+    background-color: rgb(14, 10, 5);
+}
+#navbarNav ul li a{
+    color: aliceblue;
+}
+.text-gallery {
+    text-align: center;
+}
