@@ -76,14 +76,18 @@
     </div>
 
     <br><br><br><br>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, ut. Tenetur, eos asperiores odit reiciendis voluptatibus neque eveniet consectetur earum quam labore itaque corporis obcaecati incidunt perferendis at vero sit!</p>
     <!-- Card Kelebihan Kami -->
 
     <!-- testimoni -->
 
-    <div class="comment-box">
-      <p>test</p>
+
+    
+    <div style="justify-items: center;">
+      <div class="comment-box">
+        <div id="comment-results"></div>
+      </div>
     </div>
+    
     <div class="comment-section">
       <pre>
         Nama   : <input type="text" name="nama" size="25" maxlength="50" class="comment-input" id="user-name">
@@ -91,7 +95,7 @@
         <textarea name="testimoni" cols="50" rows="3" class="comment-input" placeholder="write your comment" id="user-comment"></textarea>
       </pre>
       <div class="sub-btn">
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" onclick="displayComment()">
       </div>
     </div>
 
