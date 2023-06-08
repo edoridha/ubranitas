@@ -1,74 +1,187 @@
-#navbarNav ul li a{
-    color: aliceblue;
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+
+body {
+	background-color: #ffffff;
+	font-family: montserrat;
 }
-.text-gallery {
-    text-align: center;
-    font-family: Verdana;
+
+nav {
+	background-color: rgb(18, 18, 97);
+}
+div.container-fluid {
+	width: 80%;
+	font-size: 20px;
+}
+
+button.navbar-toggler {
+	background-color: #f4f0f0;
+}
+
+div#text-gallery {
+	position: relative;
+	text-align: center;
+}
+
+h1#tour {
+	color: white;
+	font-weight: bolder;
+	position: absolute;
+	z-index: 1;
+	left: 10%;
+	right: 10%;
+	font-size: 700%;
+	text-shadow: 4px 4px 4px black;
+	font-family: montserrat;
+	margin-top: 14%;
+}
+#navbarNav ul li a {
+	color: aliceblue;
+	font-weight: bolder;
+	font-size: 150%;
+	padding-right: 30px;
 }
 
 .gallery-size {
-    width: 500px;
-    height: 400px;;
+	width: 500px;
+	height: 400px;
+}
+
+div.content h2 {
+	font-size: 500%;
+	margin: 3%;
+	text-align: center;
+	font-weight: bolder;
+	color: rgb(18, 18, 97);
+}
+
+.row#card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgb(18, 18, 97);
+	margin: 2%;
+}
+
+h4.card-title {
+	text-align: center;
+	color: rgb(18, 18, 97);
+	font-weight: bold;
+}
+
+.comment-title h2 {
+	margin-top: 5%;
+	text-align: center;
+}
+
+h2.title-com  {
+	text-align: center;
+	color: rgb(18, 18, 97);
+	font-weight: bold;
+	font-size: 300%;
 }
 
 .comment-box {
-    height: 250px;
-    margin-top: 150px;
-    margin-top: 150px;
-    border-left: 4px solid grey;
-    border-top: 4px solid grey;
-    border-radius: 2%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    background-color: aliceblue;
-    width: 80%;
-    margin: 10%;
-    padding: 10px;
+	height: 300px;
+	border-left: 4px solid grey;
+	border-top: 4px solid grey;
+	border-radius: 6px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	background-color: white;
+	width: 80%;
+	margin: 3% 10%;
+	padding: 10px;
 }
 
 pre {
-    margin: 25%;
-    width: 50%;
-    text-align: center;
-    padding: auto;
+	margin: 2% 1%;
+	/* width: auto; */
+	text-align: center;
+	justify-items: center;
 }
 
 .comment-input {
-    color: black;
-    font-family: Verdana;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#user-name {
+	height: 40px;
+	padding: 5px;
+}
+
+#user-group {
+	height: 40px;
+	padding: 5px;
 }
 
 .comment-section {
-    border: 2px solid black;
-    padding: 1%;
-    width: 70%;
-    border-radius: 10px;
-    margin: 10px 15%;
+	background-color: rgb(98, 111, 221);
+	padding: 1%;
+	width: 50%;
+
+	border-radius: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	/* margin-bottom:; */
+	height: 425px;
+	display: block;
 }
 
 .sub-btn {
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
+	justify-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 3%;
+	padding: 15px;
 }
 
 .sub-btn input {
-    background-color: #29baf0;
-    border-radius: 5px;
-    padding: 6px;
-    margin-bottom: 6px;
-    padding: 7px 18px;
-    border: none;
+	background-color: #165194;
+	
+	color: white;
+	border-radius: 5px;
+	border: none;
+	width: 20%;
+	height: 40px;
+	box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.8);
 }
 
-.sub-btn input :hover {
-    background-color: aliceblue;
+#sub-button:hover {
+	background-color: #114a8b;
+	box-shadow: none;
 }
-
 .delete-btn {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+	background-color: #ff0000;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+footer#footer {
+	margin-top: 5%;
+	background-color: rgb(18, 18, 97);
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+footer#footer a {
+	display: block;
+	font-size: 25px;
+	text-decoration: none;
+	margin-right: 100px;
+	margin-top: 9px;
+	color: white;
+}
+a.logo#logo1 {
+	margin-top: 10%;
+	margin-left: 40%;
+	font-size: 300%;
+	text-decoration: none;
+	font-weight: bolder;
+	color: white;
 }
