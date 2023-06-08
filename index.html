@@ -14,7 +14,7 @@
           <a class="navbar-brand" href="#">
             <img src="img/logo.PNG" width="200" height="75" alt="">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -80,12 +80,20 @@
     <!-- Card Kelebihan Kami -->
 
     <!-- testimoni -->
-    <!-- <pre>
-      Nama      : <input type="text" name="nama" size="25" maxlength="50">
-      Group     : <input type="text" name="group" size="25" maxlength="50">
-      Testimoni : <textarea name="testimoni" cols="50" rows="5"></textarea>
-    </pre>
-    <input type="submit" value="Submit"> -->
+
+    <div class="comment-box">
+      <p>test</p>
+    </div>
+    <div class="comment-section">
+      <pre>
+        Nama   : <input type="text" name="nama" size="25" maxlength="50" class="comment-input" id="user-name">
+        Group  : <input type="text" name="group" size="25" maxlength="50" class="comment-input" id="user-group">
+        <textarea name="testimoni" cols="50" rows="3" class="comment-input" placeholder="write your comment" id="user-comment"></textarea>
+      </pre>
+      <div class="sub-btn">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
 
 
     <script src="script.js"></script>
