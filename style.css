@@ -12,39 +12,58 @@
 
 } */
 
+.comment-title {
+    margin-top: 300px;
+}
+
+.title-com {
+    margin-left: 10%; 
+}
+
 .comment-box {
-    height: 250px;
-    margin-top: 150px;
+    height: 300px;
     border-left: 4px solid grey;
     border-top: 4px solid grey;
-    border-radius: 2%;
+    border-radius: 6px;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    background-color: aliceblue;
+    background-color: white;
     width: 80%;
-    margin: 10%;
+    margin: 3% 10%;
     padding: 10px;
 }
 
 pre {
-    margin: 25%;
-    width: 50%;
+    margin: 2% 1%;
+    /* width: auto; */
     text-align: center;
-    padding: auto;
+    justify-items: center;
 }
 
 .comment-input {
     color: black;
     font-family: Verdana;
+    width: 90%;
+    margin: 5px 0px;
+}
+
+#user-name {
+    height: 40px;
+} 
+
+#user-group {
+    height: 40px;
 }
 
 .comment-section {
-    border: 2px solid black;
+    background-color: white;
+    border: 2px solid grey;
     padding: 1%;
-    width: 70%;
+    width: 50%;
     border-radius: 10px;
-    margin: 10px 15%;
-
+    margin: 5px 25%;
+    /* margin-bottom:; */
+    height: 425px;
 }
 
 .sub-btn {
@@ -54,15 +73,17 @@ pre {
 }
 
 .sub-btn input {
-    background-color: #29baf0;
+    background-color: #81b9f7;
+    color: white;
     border-radius: 5px;
-    padding: 6px;
-    margin-bottom: 6px;
-    padding: 7px 18px;
     border: none;
+    width: 15%;
+    height: 40px;
+    box-shadow: 2px 5px 10px 2px rgba(0,0,0,.8);
 }
 
-.sub-btn input :hover {
-    background-color: aliceblue;
+#sub-button:hover {
+    background-color: #81b9f7;
+    box-shadow: none;
 }
 
